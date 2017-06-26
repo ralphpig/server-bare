@@ -1,0 +1,36 @@
+{
+  "name": "server-bare",
+  "version": "1.0.0",
+  "description": "Bare Server Boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "production": "pm2 start production.json",
+    "staging": "pm2 start staging.json",
+    "connect": "ssh "
+  },
+  "author": "Michael Nelson (michaelnelson743@gmail.com)",
+  "license": "ISC",
+  "dependencies": {    
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mysql": "^2.10.2" 
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "del": "^2.2.0",
+    "flightplan": "^0.6.12",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-uglifycss": "^1.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ralphpig/callorangegps-server.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/ralphpig/callorangegps-server/issues"
+  },
+  "homepage": "https://gitlab.com/ralphpig/callorangegps-server#README"
+}

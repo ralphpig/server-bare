@@ -1,0 +1,13 @@
+{
+   "apps": [
+   {
+      "name": "server-staging",
+      "script": "server.js",
+      "merge_logs": true,
+      "watch": true,
+      "env": {
+         "NODE_ENV": "staging",
+         "PORT": "8000"
+      }
+   }
+]}
